@@ -49,6 +49,7 @@ public class RoundF1 {
 		return jumps;
 	}
 	
+	//the time complexity of this approach is O(2N × N), which is fast enough for test set 1.
 	static int calRebuilds2(int n, int k , int[] arr){
 		int jumps = 0;
 		int minRebuilds = Integer.MAX_VALUE;
